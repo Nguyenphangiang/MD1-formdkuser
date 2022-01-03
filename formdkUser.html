@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formdkUser</title>
+</head>
+<style>
+    ul{
+        list-style-type: none;
+        margin-left: -30px;
+    }
+</style>
+<body>
+<form action="http://demo.codegym.vn/6/registration_form/register.php" method="post">
+    <ul>
+        <li><label for="name"><b>Họ và Tên:</b></label></li>
+        <li><input type="text" name="name" value="" id="name"></li>
+        <br>
+        <li><label for="mail"><b>Email:</b></label></li>
+        <li><input type="text" id="mail" name="mail" value=""></li>
+        <br>
+        <li><label for="phone"><b>Số điện thoại:</b></label></li>
+        <li><input type="text" id="phone"></li>
+        <br>
+        <li><b>Giới tính:</b></li>
+        <li><input type="radio" name="gender" id="nam" value="Nam"><label for="nam">Nam</label><input type="radio" name="gender" id="nu" value="Nu"><label
+                for="nu">Nữ</label></li>
+        <br>
+        <input type="submit" value="Đăng Ký">
+    </ul>
+</form>
+
+</body>
+</html>
